@@ -5,7 +5,7 @@
 .header {
   min-height: 750px;
   background-color: #42b3e7;
-  background-image: url("/images/head_back.jpg");
+  background-image: url(../images/head_back.jpg);
 }
 
 .header .header__top {
@@ -24,7 +24,7 @@
 .header .header__top .logo .logo__img {
   width: 30px;
   height: 30px;
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   margin-right: 12px;
 }
@@ -129,7 +129,7 @@
   align-items: center;
   height: 320px;
   width: 600px;
-  background-image: url(/images/header_img.jpg);
+  background-image: url(../images/header_img.jpg);
   border-radius: 5px;
   border: 1px solid #061e37;
   box-shadow: 1px 9px 10px 0px #16abb0;
@@ -232,15 +232,15 @@
 }
 
 .easy-useful .easy-useful__center .easy-useful__item-1 .easy-useful__image {
-  background-image: url(/images/eu1.png);
+  background-image: url(../images/eu1.png);
 }
 
 .easy-useful .easy-useful__center .easy-useful__item-2 .easy-useful__image {
-  background-image: url(/images/eu2.png);
+  background-image: url(../images/eu2.png);
 }
 
 .easy-useful .easy-useful__center .easy-useful__item-3 .easy-useful__image {
-  background-image: url(/images/eu3.png);
+  background-image: url(../images/eu3.png);
 }
 
 .easy-useful .easy-useful__bottom {
@@ -397,7 +397,7 @@
 .services .services__inner .services__stack .services__item .services__addition-info .picture {
   width: 250px;
   height: 155px;
-  background-image: url(/images/statistic_image.png);
+  background-image: url(../images/statistic_image.png);
 }
 
 .services .services__inner .services__stack .services__item .services__addition-info .text {
@@ -413,7 +413,7 @@
 
 .testimonials {
   background-color: #21dec0;
-  background-image: url(/images/bg_testimonials.png);
+  background-image: url(../images/bg_testimonials.png);
 }
 
 .testimonials .testimonials__inner {
@@ -481,11 +481,11 @@
 }
 
 .testimonials .testimonials__inner .testimonials__right .testimonial .avatar_1 {
-  background-image: url(/images/test_1.png);
+  background-image: url(../images/test_1.png);
 }
 
 .testimonials .testimonials__inner .testimonials__right .testimonial .avatar_2 {
-  background-image: url(/images/test_2.png);
+  background-image: url(../images/test_2.png);
 }
 
 .testimonials .testimonials__inner .testimonials__right .testimonial h4 {
@@ -554,17 +554,17 @@
 }
 
 .team .team__inner .team__avatars .avatar:nth-child(1) {
-  background-image: url(/images/avatar_left.png);
+  background-image: url(../images/avatar_left.png);
 }
 
 .team .team__inner .team__avatars .avatar:nth-child(2) {
   width: 200px;
   height: 200px;
-  background-image: url(/images/avatar_center.png);
+  background-image: url(../images/avatar_center.png);
 }
 
 .team .team__inner .team__avatars .avatar:nth-child(3) {
-  background-image: url(/images/avatar_right.png);
+  background-image: url(../images/avatar_right.png);
 }
 
 .team .team__inner .team__details {
@@ -733,7 +733,7 @@ footer .footer__inner .footer__top .logo {
 footer .footer__inner .footer__top .logo .logo__img {
   width: 30px;
   height: 30px;
-  background-image: url(/images/logo.png);
+  background-image: url(../images/logo.png);
   margin-right: 12px;
 }
 

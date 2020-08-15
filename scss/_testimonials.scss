@@ -1,6 +1,6 @@
 .testimonials {
   background-color: #21dec0;
-  background-image: url(/images/bg_testimonials.png);
+  background-image: url(../images/bg_testimonials.png);
   .testimonials__inner {
     display: flex;
     justify-content: space-between;
@@ -61,10 +61,10 @@
           width: 60px;
           height: 60px;
           &_1 {
-            background-image: url(/images/test_1.png);
+            background-image: url(../images/test_1.png);
           }
           &_2 {
-            background-image: url(/images/test_2.png);
+            background-image: url(../images/test_2.png);
           }
         }
         h4 {

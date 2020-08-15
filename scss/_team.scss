@@ -19,15 +19,15 @@
           background-size: cover;
         }
         &:nth-child(1) {
-          background-image: url(/images/avatar_left.png);
+          background-image: url(../images/avatar_left.png);
         }
         &:nth-child(2) {
           width: 200px;
           height: 200px;
-          background-image: url(/images/avatar_center.png);
+          background-image: url(../images/avatar_center.png);
         }
         &:nth-child(3) {
-          background-image: url(/images/avatar_right.png);
+          background-image: url(../images/avatar_right.png);
         }
       }
     }

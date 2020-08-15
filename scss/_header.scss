@@ -2,7 +2,7 @@
   min-height: 750px;
 
   background-color: rgb(66, 179, 231);
-  background-image: url('/images/head_back.jpg');
+  background-image: url(../images/head_back.jpg);
 
   .header__top {
     display: flex;
@@ -16,7 +16,7 @@
       .logo__img {
         width: 30px;
         height: 30px;
-        background-image: url(/images/logo.png);
+        background-image: url(../images/logo.png);
         background-repeat: no-repeat;
         margin-right: 12px;
       }
@@ -129,7 +129,7 @@
       height: 320px;
       width: 600px;
 
-      background-image: url(/images/header_img.jpg);
+      background-image: url(../images/header_img.jpg);
       border-radius: 5px;
       border: 1px solid $dark-blue;
       box-shadow: 1px 9px 10px 0px #16abb0;
