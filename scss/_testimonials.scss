@@ -1,0 +1,93 @@
+.testimonials {
+  background-color: #21dec0;
+  background-image: url(/images/bg_testimonials.png);
+  .testimonials__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 565px;
+
+    .testimonials__left {
+      max-width: 516px;
+      .text {
+        color: white;
+        h2 {
+          margin-top: 0px;
+          margin-bottom: 0px;
+          font: {
+            size: 45px;
+            family: 'Raleway', sans-serif;
+            weight: 600;
+          }
+        }
+        p {
+          line-height: 24px;
+          font: {
+            size: 15px;
+            family: 'Raleway', sans-serif;
+            weight: 600;
+          }
+        }
+      }
+      .button {
+        width: 150px;
+        height: 55px;
+        margin-top: 80px;
+        line-height: 55px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        background-color: $dark-blue;
+      }
+    }
+    .testimonials__right {
+      .testimonial {
+        background-color: white;
+        position: relative;
+
+        max-width: 650px;
+        padding: 30px;
+        margin-bottom: 70px;
+        border-radius: 4px;
+        box-shadow: 0px 3px 6px 1px #12b1af;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .avatar {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-30px);
+          left: -110px;
+          width: 60px;
+          height: 60px;
+          &_1 {
+            background-image: url(/images/test_1.png);
+          }
+          &_2 {
+            background-image: url(/images/test_2.png);
+          }
+        }
+        h4 {
+          color: $dark-blue;
+          margin: 0;
+          margin-bottom: 20px;
+          font: {
+            size: 18px;
+            family: 'Raleway', sans-serif;
+            weight: 600;
+          }
+        }
+        p {
+          color: $gray;
+          margin: 0;
+          line-height: 24px;
+          font: {
+            size: 15px;
+            family: 'Raleway', sans-serif;
+            weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

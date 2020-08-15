@@ -1,0 +1,109 @@
+.easy-useful {
+  min-height: 800px;
+  .easy-useful__top {
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 555px;
+    text-align: center;
+    h2 {
+      color: $dark-blue;
+      margin-top: 0;
+      margin-bottom: 0;
+      font: {
+        size: 45px;
+        family: 'Raleway', sans-serif;
+        weight: 600;
+      }
+    }
+    h3 {
+      color: $gray;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font: {
+        size: 25px;
+        family: 'Raleway', sans-serif;
+        weight: 600;
+      }
+    }
+    p {
+      color: $gray;
+      line-height: 24px;
+      font: {
+        size: 15px;
+        family: 'Raleway', sans-serif;
+        weight: 400;
+      }
+    }
+  }
+  .easy-useful__center {
+    
+    margin-top: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .easy-useful__item {
+      text-align: center;
+      max-width: 350px;
+      min-height: 215px;
+      .easy-useful__image {
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-bottom: 39px;
+      }
+      h4 {
+        color: $dark-blue;
+        margin-bottom: 8px;
+        font: {
+          size: 20px;
+          family: 'Raleway', sans-serif;
+          weight: 600;
+        }
+      }
+      p {
+        color: $gray;
+        line-height: 1.35;
+        font: {
+          size: 15px;
+          family: 'Raleway', sans-serif;
+          weight: 400;
+        }
+      }
+    }
+    .easy-useful__item-1 {
+      .easy-useful__image {
+        background-image: url(/images/eu1.png);
+      }
+    }
+    .easy-useful__item-2 {
+      .easy-useful__image {
+        background-image: url(/images/eu2.png);
+      }
+    }
+    .easy-useful__item-3 {
+      .easy-useful__image {
+        background-image: url(/images/eu3.png);
+      }
+    }
+  }
+  .easy-useful__bottom {
+    margin-top: 60px;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #1de9b6;
+      color: white;
+      padding: 22px 28px;
+      text-transform: uppercase;
+      border-radius: 7px;
+      font: {
+        size: 15px;
+        family: 'Raleway', sans-serif;
+        weight: 600;
+      }
+    }
+  }
+}

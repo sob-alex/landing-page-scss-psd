@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+@import 'mixins';
+@import 'colors';
+@import 'header';
+@import 'easy-useful';
+@import 'counts';
+@import 'services';
+@import 'testimonials';
+@import 'team';
+@import 'contact';
+@import 'footer';
+@import 'media-queries';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}

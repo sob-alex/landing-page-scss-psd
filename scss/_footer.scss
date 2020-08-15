@@ -1,0 +1,105 @@
+footer {
+  background-color: $dark-blue;
+  .footer__inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .footer__top {
+      display: flex;
+
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        display: flex;
+        align-items: center;
+        .logo__img {
+          width: 30px;
+          height: 30px;
+          background-image: url(/images/logo.png);
+          margin-right: 12px;
+        }
+        .logo__text {
+          p {
+            margin: 0;
+            font-size: 15px;
+            color: white;
+            line-height: 14px;
+            text-transform: uppercase;
+          }
+          p:first-child {
+            font: {
+              family: 'Raleway', sans-serif;
+              weight: 400;
+            }
+          }
+          p:last-child {
+            font: {
+              family: 'Raleway', sans-serif;
+              weight: 800;
+            }
+          }
+        }
+      }
+      .nav {
+        a {
+          &:last-child {
+            margin-right: 0;
+          }
+          font: {
+            size: 15px;
+            family: 'Raleway', sans-serif;
+            weight: 600;
+          }
+          text-decoration: none;
+          color: white;
+          margin-right: 49px;
+        }
+      }
+    }
+    .footer__bottom {
+      display: flex;
+      margin-top: 50px;
+      width: 100%;
+      justify-content: space-between;
+      align-items: baseline;
+      .footer__list {
+        a {
+          text-decoration: none;
+          position: relative;
+          color: #5b6470;
+          margin-right: 44px;
+          &::after {
+            content: '';
+
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            top: 50%;
+            right: -27px;
+            transform: translateY(-2.5px);
+            border-radius: 100%;
+            background-color: white;
+          }
+          &:last-child::after {
+            display: none;
+          }
+          font: {
+            family: 'Raleway', sans-serif;
+            weight: 400;
+          }
+        }
+      }
+      .footer__social {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        width: 200px;
+        i {
+          color: #5b6470;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
